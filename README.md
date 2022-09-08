@@ -1,4 +1,4 @@
-# Template Blod - Angular Responsive App
+# Template Blog - Angular Responsive App
 
 Template de um blog em Angular, utilizando o bower para gerenciar as dependecias.
 
