@@ -1,0 +1,9 @@
+{
+  "name": "blog_do_leo_app",
+  "version": "1.0.0",
+  "description": "Esse repositorio contém um template de um blog em Angular",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "author": "Leonardo R. Lopes"
+}

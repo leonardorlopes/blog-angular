@@ -1,0 +1,80 @@
+<navbar></navbar>
+<br>
+<div class="jumbotron hidden-xs">
+  <div class="container text-center">
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="m-title c-align">
+          <h2 style="color:#faf9f9">Leonardo R. Lopes de Souza</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="titleheadshot">
+          <div class="headshot"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="text-align:left;">
+        <div>
+          <p style="color:#faf9f9">Sou o Leonardo, moro em Suzano no estado de São Paulo, tenho 24 anos e trabalho
+            atualmente como Tech Lead no Itau Unibanco, tenho conhecimento em linguagens de programação como Java, C#,
+            Node, Angular, entre outras, e no uso das clouds publicas AWS e Azure.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br class="visible-xs">
+<br class="visible-xs">
+
+
+<div class="container spacedown" ng-init="loadData()">
+
+  <div class="row">
+    <br class="visible-xs">
+    <div class="col-xs-12">
+      <div class="btn-group" uib-dropdown is-open="status.isopen">
+        <button id="single-button" type="button" class="btn btn-danger sorter" uib-dropdown-toggle
+          ng-disabled="disabled">
+          Ordenar as noticias <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" uib-dropdown-menu role="menu" aria-labelledby="single-button">
+          <li role="menuitem"><a href="#" ng-click="sortByDate('date', 0)">Data - Mais antigas</a></li>
+          <li role="menuitem"><a href="#" ng-click="sortByDate('date', 1)">Data - Mais recentes</a></li>
+          <li class="divider"></li>
+          <li role="menuitem"><a href="#" ng-click="sortByTitle('date', 0)">Titulo A-Z</a></li>
+          <li role="menuitem"><a href="#" ng-click="sortByTitle('date', 1)">Titulo Z-A</a></li>
+        </ul>
+      </div>
+      &nbsp;
+      <span class="text-muted text-small">
+        {{sortDir}}
+      </span>
+    </div>
+    <br class="visible-xs">
+  </div>
+
+  <div class="row" ng-repeat="group in articles">
+    <hr ng-show="$index >= 1" class="visible-lg">
+    <div class="col-lg-4 article" ng-repeat="article in group">
+      <h2>{{article.title}}</h2>
+      <p class="text-muted">{{article.date | date : "M/d/yy h:mm a"}}</p>
+      <img ng-show="article.imageUrl && article.imageUrl.length > 0" ng-src="{{article.imageUrl}}"
+        alt="{{article.title}}" class="img-responsive">
+      <br>
+      <p class="description">
+        {{article.description}}
+      </p>
+      <br class="visible-xs visible-sm visible-md">
+      <br class="visible-xs visible-sm visible-md">
+    </div>
+  </div>
+</div>
+
+<!-- /container -->
+
+<footer></footer>

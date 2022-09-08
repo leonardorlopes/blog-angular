@@ -1,0 +1,30 @@
+[    
+    {
+        "_id": 1,
+        "date": "2022-09-07T11:43:56+00:00",
+        "title": "Lula diz que não vai mais enganar o povo",
+        "description": "Lula aparece em video e diz que não vai enganar o povo mais uma vez.",
+        "imageUrl": "https://www.novaculturafm.com.br/files/2021/03/lula-ladrao.jpg"
+    },
+    {
+        "_id": 2,
+        "date": "2022-09-08T11:54:56+00:00",
+        "title": "Morre, aos 96 anos, Elizabeth 2ª, a monarca do reinado mais longo da história do Reino Unido",
+        "description": "Morreu hoje, aos 96 anos, a rainha Elizabeth 2ª, encerrando assim o reinado de 70 anos, o mais longo — e da monarca mais longeva — da história britânica. Um período sólido, sim. Estável? Nunca.",
+        "imageUrl": "https://cdn.diariodolitoral.com.br/img/pc/920/610/dn_arquivo/2022/02/fmplt-sxoacp2sn.jpg"
+    },
+    {
+        "_id": 3,
+        "date": "2022-09-08T11:55:56+00:00",
+        "title": "Apple anuncia iPhone 14 em quatro versões distintas",
+        "description": "O iPhone 14 foi anunciado pela Apple durante um evento especial na tarde desta quarta-feira (07). A nova geração de celulares traz ainda o iPhone 14 Plus , com tela maior, e os modelos iPhone 14 Pro e iPhone 14 Pro Max, com os recursos de ficha técnica mais sofisticados da empresa. Além dos modelos de telefone, são aguardadas novas versões do Apple Watch e do AirPods Pro, o fone de ouvido Bluetooth com cancelamento ativo de ruído",
+        "imageUrl": "https://super.abril.com.br/wp-content/uploads/2022/09/apple1-thumb.jpg"
+    },
+    {
+        "_id": 4,
+        "date": "2022-09-08T11:56:56+00:00",
+        "title": "Quem é o Leo, onde vive, o que faz, o que sabe? hoje no globo reporter",
+        "description": "O Leonardo, mora em Suzano - SP, tem 24 anos e trabalha atualmente como Tech Lead no Itau Unibanco, possui conhecimento em linguagens de programação como Java, C#, Node, Angular, entre outras, e no uso das clouds publicas AWS e Azure.",
+        "imageUrl": "https://live.staticflickr.com/65535/52340708553_018866e1e8_4k.jpg"
+    }
+]

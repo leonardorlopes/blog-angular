@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" ng-app="blogDoLeo">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <base href="/">
+  <title ng-bind="title">Blog do Leo</title>
+  <meta name="description" content="{{description}}">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- vendor:css -->
+  <link href="//fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!-- vendorend -->
+
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+ 
+  <div ui-view=""></div>
+
+  <!-- bower:js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>  
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>  
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+  <!-- endbower -->
+
+  <!-- app:js -->
+  <script src="app/app.js"></script>  
+  <script src="app/controller/main.controller.js"></script>
+  <script src="app/service/articles.service.js"></script>
+  <script src="config.js"></script>
+  <!-- endapp -->
+
+  <!-- components:js -->
+  <script src="components/navbar/navbar.directive.js"></script>
+  <script src="components/navbar/navbar.controller.js"></script>
+  <script src="components/navbar/slide-menu.directive.js"></script>
+  <script src="components/footer/footer.directive.js"></script>
+  <script src="components/footer/footer.controller.js"></script>  
+  <script src="components/utils/utils.service.js"></script>
+  <!-- endcomponents -->
+
+</body>
+
+</html>
