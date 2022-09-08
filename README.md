@@ -4,7 +4,7 @@ Template de um blog em Angular, utilizando o bower para gerenciar as dependecias
 
 ## Premissas
 
-Bower é usado como ferramenta para gerenciar as dependecias devendo ser instalado rodar o projeto. Instruções de instalação disponíveis em : https://bower.io/.
+Bower é usado como ferramenta para gerenciar as dependecias devendo ser instalado para rodar o projeto. Instruções de instalação disponíveis em : https://bower.io/.
 
 Ou simplesmente rodar o comando:
 `npm install -g bower`
